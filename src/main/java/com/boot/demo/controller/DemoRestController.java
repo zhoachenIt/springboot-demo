@@ -26,4 +26,10 @@ public class DemoRestController {
         return "访问成功test3";
     }
 
+    @RequestMapping("/test4")
+    public String test4() {
+        return "访问成功test4";
+    }
+
+
 }
