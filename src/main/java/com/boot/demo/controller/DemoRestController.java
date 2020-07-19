@@ -31,5 +31,9 @@ public class DemoRestController {
         return "访问成功test4";
     }
 
+    @RequestMapping("/test5")
+    public String test5() {
+        return "访问成功test5";
+    }
 
 }
