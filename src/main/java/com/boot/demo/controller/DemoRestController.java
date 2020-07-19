@@ -21,4 +21,9 @@ public class DemoRestController {
         return "访问成功test2";
     }
 
+    @RequestMapping("/test3")
+    public String test3() {
+        return "访问成功test3";
+    }
+
 }
