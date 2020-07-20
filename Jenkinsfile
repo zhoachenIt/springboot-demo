@@ -9,7 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'mvn clean compile package -Dmaven.repo.local=E:\\JavaTools\\MavenRepository\\Repository'
+        sh 'mvn clean'
       }
     }
 
